@@ -7,7 +7,6 @@ mkdir MyLinuxEnv
 ---
 
 ### Import from existing WSL export or custom rootfs
-
 * https://cloud-images.ubuntu.com/wsl/
 * https://cloud-images.ubuntu.com/wsl/jammy/current/
 
@@ -22,4 +21,14 @@ wsl --import ubuntu22.04 .\ .\ubuntu-jammy-wsl-amd64-ubuntu22.04lts.rootfs.tar.g
 wsl -d ubuntu22.04
 wsl --terminate ubuntu22.04
 ```
+---
 
+### .wslconfig
+This is hosta wsl config file that locat on `C:\Users\<YourUsername>\.wslconfig`
+
+---
+
+### wsl.conf
+This is linux distro config file that locat on `/etc/wsl.conf`
+
+---
