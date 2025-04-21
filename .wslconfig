@@ -1,0 +1,9 @@
+; [wsl2]
+; integratedGpu=false             # Only allowed here
+; automount=false                 # This disables all /mnt auto-mounts
+
+[ubuntu22.04]
+memory=1GB
+processors=1
+swap=500MB
+localhostForwarding=true
